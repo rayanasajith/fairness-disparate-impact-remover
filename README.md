@@ -1,10 +1,5 @@
 # Bias Mitigation with the Disparate Impact Remover
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rayanasajith/fairness-disparate-impact-remover/blob/main/disparate_impact_remover.ipynb)
-
-This repository evaluates the **Disparate Impact Remover** (Feldman et al., 2015) on three benchmark datasets: Adult, German Credit and COMPAS. It uses the implementation in [IBM AI Fairness 360 (AIF360)](https://github.com/Trusted-AI/AIF360).
-
-The Disparate Impact Remover is a **pre-processing** method. It changes the values of the non-protected features so that the feature distributions of the privileged and unprivileged groups become similar, while keeping each person's rank within their own group. The protected attribute and the labels are not changed.
 
 ## How to run
 
