@@ -3,21 +3,11 @@
 
 ## How to run
 
-### Option 1: Google Colab (recommended)
+Google Colab 
 
-1. Click the **Open in Colab** button above.
-2. Select **Runtime → Run all**.
+1. Click the Open in Colab button above.
+2. Select Runtime → Run all
 
-The first cell installs all dependencies. Another cell downloads the raw datasets into AIF360's data folder, so no manual setup is needed. A full run takes about 5–10 minutes.
-
-### Option 2: Locally
-
-```bash
-pip install aif360 BlackBoxAuditing scikit-learn pandas numpy matplotlib tqdm jupyter
-jupyter notebook disparate_impact_remover.ipynb
-```
-
-Then run all cells in order. Python 3.10 or 3.11 is recommended.
 
 ## Notebook structure
 
